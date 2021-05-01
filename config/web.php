@@ -33,7 +33,9 @@ $config = [
             'class'         => Response::class,
             'on beforeSend' => static function ($event) {
                 $response = $event->sender;
-                if ($response->data !== null) {
+                $format = (bool)Yii::$app->request->headers['Response-Format'];
+
+                if ($response->data !== null && $format) {
                     $response->data = [
                         'success' => $response->isSuccessful,
                         'data'    => $response->isSuccessful ? $response->data : new BaseObject(),
