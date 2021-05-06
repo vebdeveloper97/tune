@@ -23,6 +23,8 @@ use yii\db\ActiveRecord;
  */
 class Post extends ActiveRecord
 {
+    public $captcha;
+
     /**
      * @return string[][]
      */
@@ -56,6 +58,7 @@ class Post extends ActiveRecord
             [['title'], 'string', 'max' => 100],
             [['text'], 'string', 'max' => 255],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::class, 'targetAttribute' => ['user_id' => 'id']],
+            ['captcha', 'captcha']
         ];
     }
 

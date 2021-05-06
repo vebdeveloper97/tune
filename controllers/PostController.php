@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\Post;
 use app\models\PostSearch;
+use yii\captcha\CaptchaAction;
 use yii\db\StaleObjectException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -16,13 +17,25 @@ use yii\filters\VerbFilter;
 class PostController extends Controller
 {
     /**
+     * @return string[][]
+     */
+    public function actions(): array
+    {
+        return [
+            'captcha' => [
+                'class' => CaptchaAction::class,
+            ]
+        ];
+    }
+
+    /**
      * {@inheritdoc}
      */
     public function behaviors(): array
     {
         return [
             'verbs' => [
-                'class' => VerbFilter::class,
+                'class'   => VerbFilter::class,
                 'actions' => [
                     'delete' => ['POST'],
                 ],
@@ -40,7 +53,7 @@ class PostController extends Controller
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
-            'searchModel' => $searchModel,
+            'searchModel'  => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }

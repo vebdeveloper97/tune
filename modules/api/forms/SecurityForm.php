@@ -4,15 +4,18 @@
 namespace app\modules\api\forms;
 
 
+use app\commands\CaptchaHelper;
 use app\modules\api\resources\UserResource;
 use Yii;
 use yii\base\Exception;
+use yii\base\InvalidConfigException;
 
 class SecurityForm extends BaseForm
 {
     public ?string $username = null;
     public ?string $password = null;
     public ?string $auth_token = null;
+    public ?string $code;
 
     public const SCENARIO_LOGIN = 'login';
     public const SCENARIO_RESET_PASSWORD = 'reset password';
@@ -23,10 +26,26 @@ class SecurityForm extends BaseForm
     public function rules(): array
     {
         return [
-            [['username', 'password'], 'required', 'on' => self::SCENARIO_LOGIN],
+            [['username', 'password', 'code'], 'required', 'on' => self::SCENARIO_LOGIN],
             [['password'], 'required', 'on' => self::SCENARIO_RESET_PASSWORD],
-            ['auth_token', 'string', 'max' => 100]
+            ['auth_token', 'string', 'max' => 100],
+            ['code', 'checkCaptcha']
         ];
+    }
+
+    /**
+     * @param $attribute
+     */
+    public function checkCaptcha($attribute): void
+    {
+        $captcha = new CaptchaHelper();
+        if ($this->scenario == self::SCENARIO_LOGIN) {
+            try {
+                $captcha->verify($this->code);
+            } catch (Exception $e) {
+                $this->addError($attribute, Yii::t('app', 'Captcha is invalid code!'));
+            }
+        }
     }
 
     /**
@@ -35,7 +54,7 @@ class SecurityForm extends BaseForm
     public function scenarios(): array
     {
         return array_merge(parent::scenarios(), [
-            self::SCENARIO_LOGIN          => ['username', 'password'],
+            self::SCENARIO_LOGIN          => ['username', 'password', 'code'],
             self::SCENARIO_RESET_PASSWORD => ['password']
         ]);
     }
@@ -72,6 +91,15 @@ class SecurityForm extends BaseForm
 
         $this->addError('username', "username or password error");
         return false;
+    }
+
+    /**
+     * @return string
+     * @throws InvalidConfigException
+     */
+    public function makeCaptcha(): string
+    {
+        return (new CaptchaHelper())->generateImage();
     }
 
 }

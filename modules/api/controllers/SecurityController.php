@@ -24,8 +24,9 @@ class SecurityController extends BaseController
         $behaviors['verb'] = [
             'class'   => VerbFilter::class,
             'actions' => [
-                'login'          => ['POST'],
-                'reset-password' => ['POST']
+                'login'          => ['POST', 'GET'],
+                'reset-password' => ['POST'],
+                'captcha'        => ['POST']
             ],
         ];
 
@@ -42,10 +43,20 @@ class SecurityController extends BaseController
         $model->scenario = SecurityForm::SCENARIO_LOGIN;
         $params = Yii::$app->request->bodyParams;
 
+        if (Yii::$app->request->isGet) {
+            return $model->makeCaptcha();
+        }
+
         if ($model->load($params) && $model->login()) {
             return $this->output(['auth_token' => $model->auth_token]);
         } else {
             return $this->output([], false, $model->getErrorMessage($model->firstErrors), 500);
         }
     }
+
+    public function actionResetPassword()
+    {
+
+    }
+
 }
