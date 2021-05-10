@@ -5,9 +5,11 @@ namespace app\modules\api\controllers;
 
 
 use app\modules\api\filters\PostSearchFilters;
+use app\modules\api\forms\PostForm;
 use app\modules\api\resources\PostResource;
 use Yii;
 use yii\data\ActiveDataProvider;
+use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\rest\Serializer;
 
@@ -27,16 +29,35 @@ class PostController extends BaseController
      */
     public function behaviors(): array
     {
-        $behaviors = parent::behaviors();
-
-        $behaviors['verb'] = [
+        $parent = parent::behaviors();
+        $parent['verbs'] = [
             'class'   => VerbFilter::class,
             'actions' => [
-                'list' => ['POST'],
+                'list'   => ['POST'],
+                'update' => ['POST'],
+                'view' => ['GET']
             ],
         ];
 
-        return $behaviors;
+        $parent['access'] = [
+            'class' => AccessControl::class,
+            'rules' => [
+                [
+                    'actions'    => ['update', 'view'],
+                    'allow'      => true,
+                    'roles'      => ['updatePost'],
+                    'roleParams' => static function () {
+                        return ['post' => PostResource::findOne(['id' => Yii::$app->request->get('id')])];
+                    }
+                ],
+                [
+                    'actions' => ['list'],
+                    'allow'   => true,
+                    'roles'   => ['@']
+                ],
+            ]
+        ];
+        return $parent;
     }
 
     /**
@@ -53,5 +74,23 @@ class PostController extends BaseController
             $perPage = 20;
         }
         return $searchModel->search($params, $perPage);
+    }
+
+    /**
+     * @return array
+     */
+    public function actionUpdate(): array
+    {
+        $id = Yii::$app->request->get('id');
+        $params = Yii::$app->request->bodyParams;
+        $model = new PostForm();
+        return $model->update($params, $id);
+    }
+
+    public function actionView()
+    {
+        $id = Yii::$app->request->get('id');
+        $model = PostResource::findOne(['id' => $id]);
+        return $this->output(['list' => $model]);
     }
 }

@@ -5,10 +5,29 @@ namespace app\modules\api\controllers;
 
 
 use Yii;
+use yii\filters\auth\CompositeAuth;
+use yii\filters\auth\HttpBearerAuth;
 use yii\rest\Controller;
 
 class BaseController extends Controller
 {
+    /**
+     * @return array
+     */
+    public function behaviors(): array
+    {
+        $parent = parent::behaviors();
+
+        $parent['auth'] = [
+            'class'       => CompositeAuth::class,
+            'authMethods' => [
+                HttpBearerAuth::class,
+            ],
+        ];
+
+        return $parent;
+    }
+
     /**
      * @param array $data
      * @param false $success

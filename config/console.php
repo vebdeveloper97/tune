@@ -16,10 +16,13 @@ $config = [
         '@tests' => '@app/tests',
     ],
     'components'          => [
-        'cache' => [
+        'authManager' => [
+            'class' => \yii\rbac\DbManager::class
+        ],
+        'cache'       => [
             'class' => 'yii\caching\FileCache',
         ],
-        'log'   => [
+        'log'         => [
             'targets' => [
                 [
                     'class'  => 'yii\log\FileTarget',
@@ -27,14 +30,15 @@ $config = [
                 ],
             ],
         ],
-        'db'    => $db,
+        'db'          => $db,
     ],
     'params'              => $params,
     'controllerMap'       => [
         'migrate' => [
             'class'         => MigrateController::class,
             'migrationPath' => [
-                '@app/modules/api/migrations'
+                '@app/modules/api/migrations',
+                '@yii/rbac/migrations'
             ],
         ],
         'fixture' => [ // Fixture generation command line.

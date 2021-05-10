@@ -1,5 +1,6 @@
 <?php
 
+use app\models\User;
 use app\modules\api\Module;
 use yii\base\BaseObject;
 use yii\web\Response;
@@ -23,6 +24,9 @@ $config = [
         ],
     ],
     'components' => [
+        'authManager'  => [
+            'class' => \yii\rbac\DbManager::class
+        ],
         'request'      => [
             'cookieValidationKey' => 'FyefNhlhRIEe9Go_PMBvvpAIWbTtwSTt',
             'parsers'             => [
@@ -52,7 +56,7 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
         'user'         => [
-            'identityClass'   => 'app\models\User',
+            'identityClass'   => User::class,
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [

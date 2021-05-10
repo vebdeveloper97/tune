@@ -7,6 +7,7 @@ use app\models\Post;
 use app\models\PostSearch;
 use yii\captcha\CaptchaAction;
 use yii\db\StaleObjectException;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -33,14 +34,25 @@ class PostController extends Controller
      */
     public function behaviors(): array
     {
-        return [
-            'verbs' => [
-                'class'   => VerbFilter::class,
-                'actions' => [
-                    'delete' => ['POST'],
-                ],
+        $parent = parent::behaviors();
+        $parent['verbs'] = [
+            'class'   => VerbFilter::class,
+            'actions' => [
+                'delete' => ['POST'],
             ],
         ];
+
+        $parent['access'] = [
+            'class' => AccessControl::class,
+            'rules' => [
+                [
+                    'allow' => true,
+                    'roles' => ['admin']
+                ]
+            ]
+        ];
+
+        return $parent;
     }
 
     /**
