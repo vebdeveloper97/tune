@@ -17,7 +17,7 @@ class PostSearch extends Post
     public function rules(): array
     {
         return [
-            [['id', 'user_id', 'status', 'updated_at'], 'integer'],
+            [['id', 'user_id', 'status', 'created_at', 'updated_at'], 'integer'],
             [['title', 'text', 'date'], 'safe'],
         ];
     }
@@ -25,7 +25,7 @@ class PostSearch extends Post
     /**
      * {@inheritdoc}
      */
-    public function scenarios(): array
+    public function scenarios()
     {
         // bypass scenarios() implementation in the parent class
         return Model::scenarios();
@@ -38,7 +38,7 @@ class PostSearch extends Post
      *
      * @return ActiveDataProvider
      */
-    public function search($params): ActiveDataProvider
+    public function search($params)
     {
         $query = Post::find();
 
@@ -58,10 +58,11 @@ class PostSearch extends Post
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'id'         => $this->id,
-            'user_id'    => $this->user_id,
-            'date'       => $this->date,
-            'status'     => $this->status,
+            'id' => $this->id,
+            'user_id' => $this->user_id,
+            'date' => $this->date,
+            'status' => $this->status,
+            'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ]);
 

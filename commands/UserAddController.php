@@ -28,6 +28,7 @@ class UserAddController extends Controller
         $model = new User();
         $model->username = $username;
         $model->password = Yii::$app->security->generatePasswordHash($password);
+        $model->auth_token = Yii::$app->security->generateRandomString(25);
         $model->date = date('Y-m-d');
 
         if (!$model->save()) {

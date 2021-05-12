@@ -18,7 +18,11 @@ class PostUpdateRule extends Rule
     public function execute($user, $item, $params): bool
     {
         $user_id = $user;
-        $data = $params['post'];
-        return $user_id === $data->user_id;
+        if (!empty($params)) {
+            $data = $params['post'];
+            return $user_id === $data->user_id;
+        } else {
+            return false;
+        }
     }
 }

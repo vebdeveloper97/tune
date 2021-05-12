@@ -5,6 +5,7 @@ namespace app\commands;
 
 
 use app\models\User;
+use app\modules\admin\rules\UpdateAdminRule;
 use app\modules\api\rules\PostUpdateRule;
 use Yii;
 use yii\console\Controller;
@@ -72,8 +73,8 @@ class RbacController extends Controller
     public function actionCreatePermission(string $permission_name, string $description)
     {
         $auth = Yii::$app->authManager;
-        $rule = new PostUpdateRule();
-
+//        $rule = new PostUpdateRule();
+        $rule = new UpdateAdminRule();
         $auth->add($rule);
 
         $updateOwnPost = $auth->createPermission($permission_name);
@@ -104,7 +105,7 @@ class RbacController extends Controller
         }
 
         $auth->assign($permission, $user_id);
-        echo "{$permission} created!\n";
+        echo "{$permission_name} created!\n";
         return ExitCode::OK;
     }
 
