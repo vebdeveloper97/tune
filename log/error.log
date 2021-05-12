@@ -1,0 +1,1630 @@
+2021/05/06 15:40:30 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:41:01 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:41:02 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:41:03 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:41:03 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:42:25 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:42:43 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:17 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:19 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:33 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:35 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:35 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:35 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:43:35 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:06 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:07 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:07 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:08 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:08 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:08 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:08 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:08 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:09 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:09 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:09 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:25 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:44:26 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:45:09 [error] 1128#1128: *123 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:46:31 [error] 1128#1128: *188 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:46:36 [error] 1128#1128: *188 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Application->run()
+#3 {main}" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 15:47:26 [error] 1128#1128: *188 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidConfigException: Object configuration must be an array containing a "class" or "__class" element. in /var/www/tune.loc/vendor/yiisoft/yii2/BaseYii.php:368
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(751): yii\BaseYii::createObject()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(735): yii\base\Component->attachBehaviorInternal()
+#2 /var/www/tune.loc/ve" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/list HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:29:27 [error] 1128#1128: *232 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:32:55 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:32:56 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:33:08 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:33:22 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:33:35 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:34:00 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:34:07 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:34:47 [error] 1128#1128: *234 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:37:18 [error] 1128#1128: *245 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/06 16:38:00 [error] 1128#1128: *245 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidArgumentException: Response content must not be an array. in /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php:1112
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Response.php(344): yii\web\Response->prepare()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#3 [internal function]: yii\base\ErrorHandler->handleException()
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "api/post/update/1". in /var/www/tune.loc/vendor/yiisoft/yii2/base/Module.php:543
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /var/www/tune.loc/web/index.php(12): yii\base\Appli" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "POST /api/post/update/1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:36:43 [error] 1134#1134: *251 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/contact"
+2021/05/11 14:36:49 [error] 1134#1134: *251 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:41:31 [error] 1134#1134: *279 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:43:06 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:43:07 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:43:08 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:43:44 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:44:14 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:44:15 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:44:15 [error] 1134#1134: *282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:44:29 [error] 1134#1134: *288 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:44:49 [error] 1134#1134: *288 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:47:41 [error] 1134#1134: *297 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:47:52 [error] 1134#1134: *297 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 14:49:13 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5319aa0a88.22605119 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:49:32 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a532c675261.59618238 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:02 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a534ad4b339.46792705 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:36 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a536cb65ca8.43598049 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:37 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a536d33d3f8.65439657 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:37 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a536d5abe26.63463613 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:37 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a536d849141.19389243 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:37 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a536db00237.41637267 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:37 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a536ddd2086.37450666 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:50:51 [error] 1134#1134: *305 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a537bbc77e5.82210984 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:52:13 [error] 1134#1134: *344 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a53cdc4e4f1.81093009 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:52:54 [error] 1134#1134: *344 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a53f5d24c77.45811337 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:53:22 [error] 1134#1134: *344 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a541231f7d9.79215484 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:57:07 [error] 1134#1134: *354 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a54f3596bb0.30658743 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:57:09 [error] 1134#1134: *354 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a54f515a504.45089879 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:57:09 [error] 1134#1134: *354 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a54f5579313.70395856 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 14:57:09 [error] 1134#1134: *354 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a54f58046e3.05492820 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:03:17 [error] 1134#1134: *380 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5665db7594.62085210 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:03:19 [error] 1134#1134: *380 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a56677267c1.08483787 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:04:08 [error] 1134#1134: *380 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a56989ca798.41837414 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:04:22 [error] 1134#1134: *380 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a56a6459360.65910160 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:16 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5754928697.23824365 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:17 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a575558ef82.87386795 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:17 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5755aabf30.02341138 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:32 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5764b81be6.87785988 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:33 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a576540b493.14835418 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:33 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57657662d5.05989033 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:33 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5765b32b52.40124363 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:07:33 [error] 1134#1134: *398 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5765d94782.41957734 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:08:41 [error] 1134#1134: *423 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57a90eeaa5.35273339 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:09:02 [error] 1134#1134: *423 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57bdf00ba2.53063778 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:09:02 [error] 1134#1134: *423 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57be81a231.72419558 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:09:02 [error] 1134#1134: *423 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57beaceb55.52852928 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:09:02 [error] 1134#1134: *423 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57bee02b76.76972107 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:09:29 [error] 1134#1134: *423 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a57d955c833.39356178 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:13:11 [error] 1134#1134: *448 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a58b7867611.44395703 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:21:15 [error] 1134#1134: *453 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5a9b075cd5.95394280 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:23:50 [error] 1134#1134: *458 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5b369aef15.31891519 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:24:33 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5b6137e793.05053743 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:24:47 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5b6fd8cda3.03099276 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:17 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5b8cec8704.09701183 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:26 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5b9626a782.38055206 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:31 [error] 1134#1134: *458 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5b9ae73fa3.64620655 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:45 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5ba9275c72.52402738 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:45 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5ba9e76e23.46853231 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:46 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5baa50f8f6.15814374 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:46 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5baa935ba7.03673703 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:46 [error] 1134#1134: *458 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5baac50920.07415694 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:47 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5baaf35229.42819082 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:47 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5bab2921a7.78471993 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:47 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5bab4cde34.75727823 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:25:47 [error] 1134#1134: *459 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5bab742b73.61265362 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:28:39 [error] 1134#1134: *505 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5c56c63824.32178218 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:29:13 [error] 1134#1134: *506 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5c79225405.21359699 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:29:45 [error] 1134#1134: *505 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5c99580641.11875743 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:30:10 [error] 1134#1134: *505 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cb277cd09.13542106 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:31:12 [error] 1134#1134: *525 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cf08a43e2.54788356 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:31:19 [error] 1134#1134: *525 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cf70aca03.41520728 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:31:23 [error] 1134#1134: *525 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cfbcd3912.60343271 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:31:24 [error] 1134#1134: *525 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cfc74e051.23724568 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:31:25 [error] 1134#1134: *525 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cfd3c9a96.75545748 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:31:25 [error] 1134#1134: *525 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5cfdbc5500.25808950 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:32:49 [error] 1134#1134: *543 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d511c3288.00536025 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:32:52 [error] 1134#1134: *543 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d54012ab2.50273470 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:32:52 [error] 1134#1134: *543 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d54a34a44.57489303 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:32:54 [error] 1134#1134: *543 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d5641cfb6.44683783 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:33:25 [error] 1134#1134: *544 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d756c4de7.42080226 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:33:25 [error] 1134#1134: *544 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d75b90181.61456561 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 15:33:25 [error] 1134#1134: *544 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\ForbiddenHttpException: Kirish talab qilinadi. in /var/www/tune.loc/vendor/yiisoft/yii2/web/User.php:461
+Stack trace:
+#0 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(156): yii\web\User->loginRequired()
+#1 /var/www/tune.loc/vendor/yiisoft/yii2/filters/AccessControl.php(140): yii\filters\AccessControl->denyAccess()
+#2 /var/www/tune.loc/vendor/yiisoft/yii2/base/ActionFilter.php(77): yii\filters\AccessControl->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 /var/www/tune.loc/vendor/yiisoft/yii2/base/Component.php(628): call_user_func()
+#5 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(300): yii\base\Component->trigger()
+#6 /var/www/tune.loc/vendor/yiisoft/yii2/web/Controller.php(214): yii\base\Controller->beforeAction()
+#7 /var/www/tune.loc/vendor/yiisoft/yii2/base/Controller.php(179): yii\web\Controller->beforeAction()
+#8 /var/www/tune.loc/vendor/yiisoft/yii2/base/Module" while reading upstream, client: 127.0.0.1, server: tune.loc, request: "GET /site/captcha?v=609a5d75e0c837.56188854 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/site/login"
+2021/05/11 17:04:57 [error] 1134#1134: *895 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:05:53 [error] 1134#1134: *896 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:05:53 [error] 1134#1134: *895 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:05:54 [error] 1134#1134: *896 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:05:54 [error] 1134#1134: *895 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:05:54 [error] 1134#1134: *896 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:06:33 [error] 1134#1134: *895 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:06:34 [error] 1134#1134: *896 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:06:34 [error] 1134#1134: *895 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:06:34 [error] 1134#1134: *896 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:06:34 [error] 1134#1134: *895 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/test HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:08:30 [error] 1134#1134: *930 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/11 17:12:25 [error] 1134#1134: *937 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: post in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 21PHP message: PHP Notice:  Trying to get property 'user_id' of non-object in /var/www/tune.loc/modules/api/rules/PostUpdateRule.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /admin/default/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/12 10:23:07 [error] 1134#1134: *1208 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of app\models\PostSearch::rules() must be compatible with app\models\Post::rules(): array in /var/www/tune.loc/models/PostSearch.php on line 17" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /post/post HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/news/news"
+2021/05/12 11:01:32 [error] 1134#1134: *1352 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /var/www/tune.loc/modules/post/controllers/PostController.php on line 22PHP message: PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /post/post HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc"
+2021/05/12 11:26:56 [error] 1134#1134: *2103 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of app\modules\news\controllers\NewsController::behaviors() must be compatible with app\modules\news\controllers\DefaultController::behaviors(): array in /var/www/tune.loc/modules/news/controllers/NewsController.php on line 20" while reading response header from upstream, client: 127.0.0.1, server: tune.loc, request: "GET /news/news HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "tune.loc", referrer: "http://tune.loc/post/post"
