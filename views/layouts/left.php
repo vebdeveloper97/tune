@@ -47,6 +47,18 @@
                         'visible' => Yii::$app->user->can('admin')
                     ],
                     [
+                        'label'   => 'Rbac',
+                        'icon'    => 'universal-access',
+                        'url'     => ['/rbac/auth-item/index'],
+                        'visible' => Yii::$app->user->can('admin')
+                    ],
+                    [
+                        'label'   => 'Chat',
+                        'icon'    => 'universal-access',
+                        'url'     => ['/chat'],
+                        //'visible' => Yii::$app->user->can('admin')
+                    ],
+                    [
                         'label'   => 'Users 2',
                         'icon'    => 'users',
                         'url'     => ['/users'],

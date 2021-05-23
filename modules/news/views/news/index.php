@@ -47,14 +47,14 @@ $this->params['breadcrumbs'][] = $this->title;
                 'template' => '{view} {update} {delete}',
                 'buttons'  => [
                     'view'   => function ($url, $model) {
-                        if (Yii::$app->user->can('moderator')) {
+                        if (Yii::$app->user->can('moderator') || Yii::$app->user->can('updateNews', ['view'])) {
                             return Html::a('<i class="glyphicon glyphicon-eye-open"></i>', $url);
                         } else {
                             return '';
                         }
                     },
                     'update' => function ($url, $model) {
-                        if (Yii::$app->user->can('moderator')) {
+                        if (Yii::$app->user->can('moderator') || Yii::$app->user->can('updateNews', ['update'])) {
                             return Html::a('<i class="glyphicon glyphicon-pencil"></i>', $url);
                         } else {
                             return '';

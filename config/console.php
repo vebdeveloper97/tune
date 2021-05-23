@@ -8,7 +8,7 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id'                  => 'basic-console',
     'basePath'            => dirname(__DIR__),
-    'bootstrap'           => ['log'],
+    'bootstrap'           => ['log', 'queue'],
     'controllerNamespace' => 'app\commands',
     'aliases'             => [
         '@bower' => '@vendor/bower-asset',
@@ -16,6 +16,13 @@ $config = [
         '@tests' => '@app/tests',
     ],
     'components'          => [
+        'queue'       => [
+            'class'     => \yii\queue\db\Queue::class,
+            'db'        => 'db', // DB connection component or its config
+            'tableName' => '{{%queue}}', // Table name
+            'channel'   => 'default', // Queue channel key
+            'mutex'     => \yii\mutex\MysqlMutex::class, // Mutex used to sync queries
+        ],
         'authManager' => [
             'class' => \yii\rbac\DbManager::class
         ],
@@ -34,14 +41,19 @@ $config = [
     ],
     'params'              => $params,
     'controllerMap'       => [
-        'migrate' => [
+        'migrate'       => [
             'class'         => MigrateController::class,
             'migrationPath' => [
                 '@app/modules/api/migrations',
                 '@yii/rbac/migrations'
             ],
         ],
-        'fixture' => [ // Fixture generation command line.
+        'migrate-queue' => [
+            'class'               => MigrateController::class,
+            'migrationPath'       => null,
+            'migrationNamespaces' => ['yii\queue\db\migrations'],
+        ],
+        'fixture'       => [ // Fixture generation command line.
             'class' => 'yii\faker\FixtureController',
         ],
     ],

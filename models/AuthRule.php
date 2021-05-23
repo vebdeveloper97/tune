@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "auth_rule".
@@ -14,12 +16,12 @@ use Yii;
  *
  * @property AuthItem[] $authItems
  */
-class AuthRule extends \yii\db\ActiveRecord
+class AuthRule extends ActiveRecord
 {
     /**
      * {@inheritdoc}
      */
-    public static function tableName()
+    public static function tableName(): string
     {
         return 'auth_rule';
     }
@@ -41,11 +43,11 @@ class AuthRule extends \yii\db\ActiveRecord
     /**
      * {@inheritdoc}
      */
-    public function attributeLabels()
+    public function attributeLabels(): array
     {
         return [
-            'name' => Yii::t('app', 'Name'),
-            'data' => Yii::t('app', 'Data'),
+            'name'       => Yii::t('app', 'Name'),
+            'data'       => Yii::t('app', 'Data'),
             'created_at' => Yii::t('app', 'Created At'),
             'updated_at' => Yii::t('app', 'Updated At'),
         ];
@@ -54,10 +56,10 @@ class AuthRule extends \yii\db\ActiveRecord
     /**
      * Gets query for [[AuthItems]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
-    public function getAuthItems()
+    public function getAuthItems(): ActiveQuery
     {
-        return $this->hasMany(AuthItem::className(), ['rule_name' => 'name']);
+        return $this->hasMany(AuthItem::class, ['rule_name' => 'name']);
     }
 }

@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use yii\base\InvalidConfigException;
+use yii\db\ActiveQuery;
 
 /**
  * This is the model class for table "auth_item".
@@ -24,6 +26,20 @@ use Yii;
  */
 class AuthItem extends \yii\db\ActiveRecord
 {
+    public const TYPE_ROLE = 1;
+    public const TYPE_PERMISSION = 2;
+
+    /**
+     * @return int[]
+     */
+    public static function typeList(): array
+    {
+        return [
+            self::TYPE_ROLE       => Yii::t('app', 'Role'),
+            self::TYPE_PERMISSION => Yii::t('app', 'Permission')
+        ];
+    }
+
     /**
      * {@inheritdoc}
      */
@@ -43,7 +59,7 @@ class AuthItem extends \yii\db\ActiveRecord
             [['description', 'data'], 'string'],
             [['name', 'rule_name'], 'string', 'max' => 64],
             [['name'], 'unique'],
-            [['rule_name'], 'exist', 'skipOnError' => true, 'targetClass' => AuthRule::className(), 'targetAttribute' => ['rule_name' => 'name']],
+            [['rule_name'], 'exist', 'skipOnError' => true, 'targetClass' => AuthRule::class, 'targetAttribute' => ['rule_name' => 'name']],
         ];
     }
 
@@ -53,20 +69,20 @@ class AuthItem extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'name' => Yii::t('app', 'Name'),
-            'type' => Yii::t('app', 'Type'),
+            'name'        => Yii::t('app', 'Name'),
+            'type'        => Yii::t('app', 'Type'),
             'description' => Yii::t('app', 'Description'),
-            'rule_name' => Yii::t('app', 'Rule Name'),
-            'data' => Yii::t('app', 'Data'),
-            'created_at' => Yii::t('app', 'Created At'),
-            'updated_at' => Yii::t('app', 'Updated At'),
+            'rule_name'   => Yii::t('app', 'Rule Name'),
+            'data'        => Yii::t('app', 'Data'),
+            'created_at'  => Yii::t('app', 'Created At'),
+            'updated_at'  => Yii::t('app', 'Updated At'),
         ];
     }
 
     /**
      * Gets query for [[AuthAssignments]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getAuthAssignments()
     {
@@ -76,7 +92,7 @@ class AuthItem extends \yii\db\ActiveRecord
     /**
      * Gets query for [[RuleName]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getRuleName()
     {
@@ -86,7 +102,7 @@ class AuthItem extends \yii\db\ActiveRecord
     /**
      * Gets query for [[AuthItemChildren]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getAuthItemChildren()
     {
@@ -96,7 +112,7 @@ class AuthItem extends \yii\db\ActiveRecord
     /**
      * Gets query for [[AuthItemChildren0]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getAuthItemChildren0()
     {
@@ -106,7 +122,8 @@ class AuthItem extends \yii\db\ActiveRecord
     /**
      * Gets query for [[Children]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
+     * @throws InvalidConfigException
      */
     public function getChildren()
     {
@@ -116,7 +133,8 @@ class AuthItem extends \yii\db\ActiveRecord
     /**
      * Gets query for [[Parents]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
+     * @throws InvalidConfigException
      */
     public function getParents()
     {

@@ -34,8 +34,18 @@ $config = [
         'news'  => [
             'class' => 'app\modules\news\Module',
         ],
+        'queue' => [
+            'class' => 'app\modules\queue\Module',
+        ],
     ],
     'components'       => [
+        'queue'        => [
+            'class'     => \yii\queue\db\Queue::class,
+            'db'        => 'db', // DB connection component or its config
+            'tableName' => '{{%queue}}', // Table name
+            'channel'   => 'default', // Queue channel key
+            'mutex'     => \yii\mutex\MysqlMutex::class, // Mutex used to sync queries
+        ],
         'authManager'  => [
             'class' => \yii\rbac\DbManager::class
         ],
@@ -69,7 +79,8 @@ $config = [
         ],
         'user'         => [
             'identityClass'   => User::class,
-            'enableAutoLogin' => true,
+            'enableAutoLogin' => false,
+            'authTimeout'     => 600,
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

@@ -6,6 +6,8 @@ use Yii;
 use app\models\News;
 use app\models\NewsSearch;
 use yii\base\Action;
+use yii\db\StaleObjectException;
+use yii\filters\AccessControl;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -26,7 +28,7 @@ class NewsController extends DefaultController
         $parent['verbs'] = [
             'class'   => VerbFilter::class,
             'actions' => [
-                'delete' => ['POST'],
+                'delete' => ['GET'],
             ],
         ];
         return $parent;
@@ -40,7 +42,13 @@ class NewsController extends DefaultController
     public function beforeAction($action)
     {
         if ($action->id != 'index') {
-            if (!Yii::$app->user->can('moderator')) {
+            $allow = false;
+            if (Yii::$app->user->can('moderator')) {
+                $allow = true;
+            } else if (Yii::$app->user->can('updateNews', [$action->id])) {
+                $allow = true;
+            }
+            if (!$allow) {
                 return $this->redirect(['/news/news/index']);
             }
         }
@@ -119,9 +127,14 @@ class NewsController extends DefaultController
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
+     * @throws \Throwable
+     * @throws StaleObjectException
      */
-    public function actionDelete($id)
+    public function actionDelete(int $id)
     {
+        if (!Yii::$app->user->can('admin')) {
+            return $this->redirect(['/news/news/index']);
+        }
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
